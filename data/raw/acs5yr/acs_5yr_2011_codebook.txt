@@ -1,0 +1,213 @@
+--------------------------------------------------------------------------------
+Codebook for Social Explorer report ID: R12407569
+--------------------------------------------------------------------------------
+
+Contents
+    - Table Summary
+    - Data Dictionary
+    - Citation and Use
+
+
+--------------------------------------------------------------------------------
+Table Summary
+--------------------------------------------------------------------------------
+ 
+Survey:           ACS 2011 (5-Year Estimates)
+Dataset:          Social Explorer Tables:  ACS 2011 (5-Year Estimates)
+Tables:
+
+      1. Total Population
+         Universe:  Total Population
+         Name:      A00001
+         Variables:
+            A00001_001:   Total Population
+
+
+      2. Race
+         Universe:  Total Population
+         Name:      A03001
+         Variables:
+            A03001_001:   Total Population:
+            A03001_002:      White Alone
+            A03001_003:      Black or African American Alone
+            A03001_004:      American Indian and Alaska Native Alone
+            A03001_005:      Asian Alone
+            A03001_006:      Native Hawaiian and Other Pacific Islander Alone
+            A03001_007:      Some Other Race Alone
+            A03001_008:      Two or More Races
+
+
+      3. Educational Attainment for Population 25 Years and Over
+         Universe:  Population 25 Years and Over
+         Name:      A12001
+         Variables:
+            A12001_001:   Population 25 Years and Over:
+            A12001_002:      Less than High School
+            A12001_003:      High School Graduate (Includes Equivalency)
+            A12001_004:      Some College
+            A12001_005:      Bachelor's Degree
+            A12001_006:      Master's Degree
+            A12001_007:      Professional School Degree
+            A12001_008:      Doctorate Degree
+
+
+      4. Median Household Income (In <DollarYear> Inflation Adjusted Dollars)
+         Universe:  Households
+         Name:      A14006
+         Variables:
+            A14006_001:   Median Household Income (In 2011 Inflation Adjusted Dollars)
+
+
+      5. Gini Index of Income Inequality
+         Universe:  Households
+         Name:      A14028
+         Variables:
+            A14028_001:   Gini Index
+
+
+      6. Occupancy Status
+         Universe:  Housing units
+         Name:      A10044
+         Variables:
+            A10044_001:   Housing Units:
+            A10044_002:      Occupied
+            A10044_003:      Vacant
+
+
+      7. Total Population in Renter Occupied Housing Units by Units in Structure
+         Universe:  Universe:  Total population in Renter Occupied housing units
+         Name:      A10062B
+         Variables:
+            A10062B_001:   Total Population in Renter Occupied Housing Units:
+            A10062B_002:      1, Detached or Attached
+            A10062B_003:      2 to 4
+            A10062B_004:      5 or More
+            A10062B_005:      Mobile Home
+            A10062B_006:      Boat, Rv, Van, Etc.
+
+
+      8. Average Commute to Work (in Min)
+         Universe:  Average Commute to Work (in min)
+         Name:      A09003
+         Variables:
+            A09003_001:   Average Commute to Work (in Min)
+
+
+
+
+
+ 
+ 
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Variables 
+      FIPS:           FIPS
+      GEOID:          Geographic Identifier
+      NAME:           Name of Area
+      QName:          Qualifying Name
+      STUSAB:         State/U.S.-Abbreviation (USPS)
+      SUMLEV:         Summary Level
+      GEOCOMP:        Geographic Component
+      FILEID:         File Identification
+      LOGRECNO:       Logical Record Number
+      US:             US
+      REGION:         Region
+      DIVISION:       Division
+      STATECE:        State (Census Code)
+      STATE:          State (FIPS)
+      COUNTY:         County
+      COUSUB:         County Subdivision (FIPS)
+      PLACE:          Place (FIPS Code)
+      PLACESE:        Place (State FIPS + Place FIPS)
+      TRACT:          Census Tract
+      BLKGRP:         Block Group
+      CONCIT:         Consolidated City
+      AIANHH:         American Indian Area/Alaska Native Area/Hawaiian Home Land (Census)
+      AIANHHFP:       American Indian Area/Alaska Native Area/Hawaiian Home Land (FIPS)
+      AIHHTLI:        American Indian Trust Land/Hawaiian Home Land Indicator
+      AITSCE:         American Indian Tribal Subdivision (Census)
+      AITS:           American Indian Tribal Subdivision (FIPS)
+      ANRC:           Alaska Native Regional Corporation (FIPS)
+      CBSA:           Metropolitan and Micropolitan Statistical Area
+      CSA:            Combined Statistical Area
+      METDIV:         Metropolitan Division
+      MACC:           Metropolitan Area Central City
+      MEMI:           Metropolitan/Micropolitan Indicator Flag
+      NECTA:          New England City and Town Combined Statistical Area
+      CNECTA:         New England City and Town Area
+      NECTADIV:       New England City and Town Area Division
+      UA:             Urban Area
+      UACP:           Urban Area Central Place
+      CDCURR:         Current Congressional District ***
+      SLDU:           State Legislative District Upper
+      SLDL:           State Legislative District Lower
+      VTD:            Voting District
+      ZCTA3:          ZIP Code Tabulation Area (3-digit)
+      ZCTA5:          ZIP Code Tabulation Area (5-digit)
+      SUBMCD:         Subbarrio (FIPS)
+      SDELM:          School District (Elementary)
+      SDSEC:          School District (Secondary)
+      SDUNI:          School District (Unified)
+      UR:             Urban/Rural
+      PCI:            Principal City Indicator
+      TAZ:            Traffic Analysis Zone
+      UGA:            Urban Growth Area
+      BTTR:           Tribal Tract
+      BTBG:           Tribal Block Group
+      PUMA5:          Public Use Microdata Area - 5% File
+      PUMA1:          Public Use Microdata Area - 1% File
+      A00001_001:     Total Population
+      A03001_001:     Total Population:
+      A03001_002:     Total Population: White Alone
+      A03001_003:     Total Population: Black or African American Alone
+      A03001_004:     Total Population: American Indian and Alaska Native Alone
+      A03001_005:     Total Population: Asian Alone
+      A03001_006:     Total Population: Native Hawaiian and Other Pacific Islander Alone
+      A03001_007:     Total Population: Some Other Race Alone
+      A03001_008:     Total Population: Two or More Races
+      A12001_001:     Population 25 Years and Over:
+      A12001_002:     Population 25 Years and Over: Less than High School
+      A12001_003:     Population 25 Years and Over: High School Graduate (Includes Equivalency)
+      A12001_004:     Population 25 Years and Over: Some College
+      A12001_005:     Population 25 Years and Over: Bachelor's Degree
+      A12001_006:     Population 25 Years and Over: Master's Degree
+      A12001_007:     Population 25 Years and Over: Professional School Degree
+      A12001_008:     Population 25 Years and Over: Doctorate Degree
+      A14006_001:     Median Household Income (In 2016 Inflation Adjusted Dollars) [Dollars adjusted for inflation to match value in 2016]
+      A14028_001:     Gini Index
+      A10044_001:     Housing Units:
+      A10044_002:     Housing Units: Occupied
+      A10044_003:     Housing Units: Vacant
+      A10062B_001:    Total Population in Occupied Housing Units: Renter Occupied
+      A10062B_002:    Total Population in Occupied Housing Units: Renter Occupied: 1, Detached or Attached
+      A10062B_003:    Total Population in Occupied Housing Units: Renter Occupied: 2 to 4
+      A10062B_004:    Total Population in Occupied Housing Units: Renter Occupied: 5 or More
+      A10062B_005:    Total Population in Occupied Housing Units: Renter Occupied: Mobile Home
+      A10062B_006:    Total Population in Occupied Housing Units: Renter Occupied: Boat, Rv, Van, Etc.
+      A09003_001:     Average Commute to Work (in Min)
+
+
+
+
+--------------------------------------------------------------------------------
+Citation and Use of Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing the data
+  must cite it appropriately. The citation should include the following:
+
+	  www.socialexplorer.com
+	  New York City, NY: Social Explorer 2019
+
+
+* Citations should also include the URL for this report:
+
+    http://www.socialexplorer.com/pub/reportdata/HtmlResults.aspx?reportid=R12407569
+
+If you have any questions contact info@socialexplorer.com
