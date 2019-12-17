@@ -1,4 +1,4 @@
-# NLCD + ACS
+# Land cover and socioeconmic data
 
 In this repository I calculate National Land Cover Database (NLCD) land cover class frequencies over US census tract geographies and join those frequencies to American Community Survey (ACS) data (also over US census tracts). Specifically I join the 2011, 2013, and 2016 NLCD layers to the respective ACS 5-year survey data. This joint dataset allows for analysis of land cover *and* socioeconmic data. For example, we can calculate the correlation between the fraction of "Developed High Intensity" land in a census tract and the median income of that tract in urbanized counties:
 
