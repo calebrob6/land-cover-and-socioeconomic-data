@@ -2,5 +2,6 @@ data/raw/acs5yr/*.csv
 data/raw/shapes/
 data/raw/nlcd/
 data/processed/
+data/processed.zip
 
 .ipynb_checkpoints/
